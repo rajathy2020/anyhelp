@@ -1,0 +1,11 @@
+{
+    "WEBSITE_NODE_DEFAULT_VERSION": "14.17.5",
+    "SCM_DO_BUILD_DURING_DEPLOYMENT": true,
+    "SCM_COMMAND_IDLE_TIMEOUT": 1800,
+    "SCM_USE_LIBGIT2SHARP_REPOSITORY": "1",
+    "GITHUB_TOKEN": "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",
+    "GITHUB_USER": "rajathy2020",
+    "GITHUB_REPO": "anyhelp",
+    "APP_COMMAND": "gunicorn main:app -w 4 -k uvicorn.workers.UvicornWorker",
+    "APP_CONTAINER_NAME": "anyhelpcontainer"
+}
